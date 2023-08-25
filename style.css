@@ -1,0 +1,167 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+.header {
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    float: left;
+    max-height: 20vh;
+    max-width: 20vw;
+    padding: 8px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    font-size: 1.2em;
+}
+
+.navbar li {
+    display: flex;
+    flex-direction: row;
+    padding: 14px;
+    align-items: center;
+}
+
+.navbar img {
+    width: 30px;
+    height: 30px;
+    display: inline;
+    padding: 8px;
+}
+
+.magazine-ad {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    align-items: center;
+}
+
+#magazine-ad-1 {
+    position: relative;
+    width: 100%;
+    opacity: 0.5;
+    top: -1000px;
+}
+
+.magazine-ad-contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    overflow: hidden;
+    max-width: 100%;
+    color: white;
+    font-size: 1.5em;;
+}
+
+.magazine-ad-contents h1 {
+    margin: 0px;
+}
+
+#magazine-ad-2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-height: 30vh;
+    max-width: 100%;
+}
+
+#subscribe-button {
+    padding: 40px 80px 40px 80px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.gazette-ad {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    align-items: center;
+}
+
+#gazette-ad-1 {
+    opacity: 0.5;
+    top: -100px;
+    min-width: 100%;
+}
+
+.gazette-ad-contents {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    overflow: hidden;
+    max-width: 100%;
+    color: white;
+    font-size: 1.5em;;
+}
+
+#gazette-ad-2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-height: 50vh;
+    max-width: 100%;
+}
+
+.recent-articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article-home{
+    padding: 8px;
+    max-width: 30vw;
+    min-width: 400px;
+}
+
+.article-home img {
+    max-width: 100%;
+}
+
+.article-home a{
+    text-decoration: none;
+    color: black;
+}
+
+.read-more-articles-button a{
+    text-decoration: none;
+}
+
+.read-more-articles-button h3{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    font-size: 1.5em;
+    padding: 12px;
+}
