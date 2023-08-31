@@ -52,6 +52,7 @@ body {
     overflow: hidden;
     background-image: url("branding/SumptonGRGmagazines.png");
     background-color: black;
+    background-size: cover;
     align-items: center;
 }
 
@@ -91,6 +92,7 @@ body {
     overflow: hidden;
     background-image: url("branding/SumptonGRGstreet.png");
     background-color: black;
+    background-size: cover;
     align-items: center;
 }
 
@@ -108,7 +110,7 @@ body {
 .gazette-ad-contents p {
     max-width: 80%;
     margin: auto;
-    padding: 16px;
+    padding-bottom: 20vh;
 }
 
 .recent-articles {
